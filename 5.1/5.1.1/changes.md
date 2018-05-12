@@ -45,10 +45,10 @@
 
 #### lua.c
 
-###### collectargs - [diff](changes.diff#L555) - [final](src/lstrlib.c#259)
+###### collectargs - [diff](changes.diff#L555) - [final](src/lua.c#259)
   - Command line arguments must match perfectly
 
 #### luac.c
 
-###### doargs - [diff](changes.diff#L629) - [final](src/lstrlib.c#70)
+###### doargs - [diff](changes.diff#L629) - [final](src/luac.c#70)
   - Allows for the version to be printed after options are ended by '--'
