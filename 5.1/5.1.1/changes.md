@@ -24,31 +24,31 @@
 
 #### liolib.c
 
-###### io_pclose - [diff](changes.diff#L251) - [final](src/liolib.c#99)
-###### io_fclose - [diff](changes.diff#L260) - [final](src/liolib.c#107)
+###### io_pclose - [diff](changes.diff#L251) - [final](src/liolib.c#L99)
+###### io_fclose - [diff](changes.diff#L260) - [final](src/liolib.c#L107)
   - The file is always set to NULL, ignoring if the p/fclose call was successful
 
 #### loslib.c
 
-###### os_pushresult - [diff](changes.diff#L365) - [final](src/loslib.c#23)
+###### os_pushresult - [diff](changes.diff#L365) - [final](src/loslib.c#L23)
   - Improper arguments for os_rename/remove will always attempt to print the file name, falling to "(null)"
 
 #### lstate.c
 
-###### lua_close - [diff](changes.diff#L481) - [final](src/loslib.c#199)
+###### lua_close - [diff](changes.diff#L481) - [final](src/loslib.c#L199)
   - luai_userstateclose macro was moved after GC metamethod calls
 
 #### lstrlib.c
 
-###### addquoted - [diff](changes.diff#L506) - [final](src/lstrlib.c#695)
+###### addquoted - [diff](changes.diff#L506) - [final](src/lstrlib.c#L695)
   - Adds quoted (%q) support for carriage return
 
 #### lua.c
 
-###### collectargs - [diff](changes.diff#L555) - [final](src/lua.c#259)
+###### collectargs - [diff](changes.diff#L555) - [final](src/lua.c#L259)
   - Command line arguments must match perfectly
 
 #### luac.c
 
-###### doargs - [diff](changes.diff#L629) - [final](src/luac.c#70)
+###### doargs - [diff](changes.diff#L629) - [final](src/luac.c#L70)
   - Allows for the version to be printed after options are ended by '--'
